@@ -95,6 +95,10 @@ module moore_sequence_detector (
         endcase
     end
 endmodule
+
+
+
+
 ![Screenshot 2024-10-10 140432](https://github.com/user-attachments/assets/18416953-d43e-4328-a612-25a1fad35e1d)
 
 
@@ -155,6 +159,8 @@ module mealy_sequence_detector (
         endcase
     end
 endmodule
+
+
 ![Screenshot 2024-10-10 144107](https://github.com/user-attachments/assets/b3adee44-cf99-4289-88b4-3ddae73628aa)
 
 
@@ -242,6 +248,8 @@ module tb_mealy_sequence_detector;
         #20 $stop; 
     end
 endmodule
+
+
 ![Screenshot 2024-10-17 121117](https://github.com/user-attachments/assets/2a843ddb-8c10-4e9b-89f0-6bb9fe6f2151)
 
 Conclusion
