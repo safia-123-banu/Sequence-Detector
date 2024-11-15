@@ -104,8 +104,6 @@ endmodule
 
 
 
-
-
 Verilog Code for Sequence Detector Using Mealy FSM
 
 // mealy_sequence_detector.v
@@ -163,8 +161,6 @@ module mealy_sequence_detector (
         endcase
     end
 endmodule
-
-
 
 
 
@@ -260,6 +256,8 @@ module tb_mealy_sequence_detector;
         #20 $stop; 
     end
 endmodule
+
+
 
 
 
